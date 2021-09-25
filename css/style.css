@@ -1,0 +1,194 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #E9F5DB;
+}
+a , p , span {
+    font-family: "Poiret One";
+}
+
+header{
+    height: 60px;
+}
+
+.hamburger-menu-icon {
+    background-color: #E9F5DB;
+    width: 100%;
+    display: inline-block;
+}
+.hamburger-menu-icon img{
+    float: right;
+    width: 70px;
+}
+
+.self-bio {
+    height: 100vh;
+    background-color: #E9F5DB;
+    margin: 0px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.self-bio .hey-you {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.self-bio p{
+    background-color: #E9F5DB;
+    margin-bottom: 60px;
+    width: 700px;
+    font-family: 'Poiret One', cursive;
+    font-size: 45pt;
+    font-weight: 1000;
+}
+.my-work-columns {
+    width: 50%;
+    background-color: #E9F5DB;
+    height: 270px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 28pt;
+    margin: 70px auto 70px auto;
+    letter-spacing: 4px;
+}
+.more-work-columns {
+    width: 50%;
+    background-color: #E9F5DB;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 28pt;
+    margin: 70px auto 70px auto;
+    letter-spacing: 4px;
+}
+.last-work-columns {
+    width: 50%;
+    background-color: #E9F5DB;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 28pt; 
+    margin: 70px auto 70px auto;
+    letter-spacing: 4px;
+}
+.my-work-img img{
+    height: 70%;
+}
+.more-work-img img{
+    height: 100%;
+}
+
+
+.my-work {
+    display: flex;
+}
+.my-work p{
+    margin: 60px auto 
+}
+
+
+.more-work {
+    display: flex;
+}
+.more-work p{
+    margin: 90px auto
+}
+
+footer .footer-content {
+    background-color: #Fbb866;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer-content .footer-text {
+    font-size: 30px;
+    font-family: "Poiret One";
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+    letter-spacing: 4px;
+}
+
+.footer-content .logoz-wrapper img {
+    width: 50px;
+}
+
+footer {
+    text-align:center;
+}
+
+footer .footer-content .logoz-wrapper {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p.footer-copyRight {
+    padding-bottom: 3px;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #Fbb866;
+}
+
+.sidenav a {
+    font-weight: bold;
+    padding:8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #E9F5DB;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 451px) {
+    .show-nav{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 450px) {
+.show-nav{
+    width: 100%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .hamburger-menu-icon img:hover {
+      transform: rotate(
+  30deg);
+      transition:transform 0.5s;
+  }
